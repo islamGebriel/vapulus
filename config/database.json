@@ -1,0 +1,19 @@
+{
+  "development": {
+    "dialect": "sqlite",
+    "storage": "./database/database.sqlite"
+  },
+  "testing": {
+    "dialect": "sqlite",
+    "storage": ":memory:",
+    "logging": false
+  },
+  "production": {
+    "username": "null",
+    "password": "null",
+    "database": "null",
+    "host": "null",
+    "dialect": "null",
+    "operatorsAliases": false
+  }
+}

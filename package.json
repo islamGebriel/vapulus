@@ -1,0 +1,20 @@
+{
+  "name": "vapulus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "NODE_ENV=testing jest --watchAll"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "sequelize": "^5.21.6",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "jest": "^25.4.0",
+    "sequelize-cli": "^5.5.1",
+    "supertest": "^4.0.2"
+  }
+}
