@@ -7,7 +7,7 @@
     "test": "NODE_ENV=testing jest --watchAll"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "faker": "^4.1.0",
     "sequelize": "^5.21.6",
     "sqlite3": "^4.1.1"
